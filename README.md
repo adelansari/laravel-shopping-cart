@@ -13,7 +13,10 @@ I will be building a shopping cart app using laravel and tailwind. The app will 
 - [XAMPP](https://www.apachefriends.org/download.html)
 - [Composer](https://getcomposer.org/download/)
   
-## Creating the project
-- `composer create-project laravel/laravel laravel-shopping-cart`
-- 
+
+## Project Setup
+- Creating the project: `composer create-project laravel/laravel laravel-shopping-cart`.
+- Running the app in browser: `php artisan serve`.
+- Creating a controller: `php artisan make:controller PagesController`.
+- Creating a model: `php artisan make:model Product -c -m`. The 'c' flag is to add a controller from existing model. 'm' flag is to create migration
 
